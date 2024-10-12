@@ -1,0 +1,1 @@
+const { getComputerChoice } = require("./app");

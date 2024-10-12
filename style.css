@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #cadcfc;
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+body {
+  background-color: #00246b;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  gap: 3rem;
+  box-shadow: black;
+}
+
+.rock:hover,
+.scissors:hover,
+.paper:hover {
+  opacity: 50%;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.paper {
+  height: 217px;
+}
+
+.name {
+  font-size: 2.8rem;
+  color: beige;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.rock img,
+.scissors img {
+  border-radius: 50%;
+  width: 217px;
+  height: 217px;
+  object-fit: cover;
+}
+
+#rst {
+  align-items: center;
+  font-size: large;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00246b;
+  gap: 17rem;
+  margin-top: 3rem;
+  color: azure;
+  position: relative;
+}
+
+/* .userchoice {
+  font-size: 2.8rem;
+  color: beige;
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+} */
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 2rem;
+  color: azure;
+}
